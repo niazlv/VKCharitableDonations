@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void regular2(View v){
+    setContentView(R.layout.regular3);
     }
 
 }
