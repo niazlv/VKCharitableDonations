@@ -125,6 +125,8 @@
                 android:layout_marginBottom="29dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
                 <TextView
                     android:layout_width="351dp"
                     android:layout_height="20dp"
@@ -133,10 +135,9 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginLeft="0dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="25dp"
                     android:text="Автор"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
@@ -174,18 +175,19 @@
                 android:layout_marginBottom="393dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
                 <TextView
                     android:layout_width="346dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="2dp"
                     android:text="Название сбора"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="31dp"
@@ -229,18 +231,19 @@
                 android:layout_marginBottom="321dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
                 <TextView
                     android:layout_width="351dp"
                     android:layout_height="20dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="22dp"
                     android:text="Сумма в месяц, ₽"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
@@ -282,19 +285,21 @@
                 android:layout_marginBottom="245dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
+
                 <TextView
                     android:layout_width="351dp"
                     android:layout_height="20dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
 
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="23dp"
                     android:text="Цель"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
@@ -313,12 +318,12 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginTop="0dp"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="20dp"
                         android:layout_marginRight="0dp"
                         android:animateLayoutChanges="true"
                         android:background="@drawable/default_sta"
-                        android:hint="Например личение человека" />
+                        android:hint="Например лечение человека"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp" />
                 </RelativeLayout>
             </RelativeLayout>
 
@@ -346,7 +351,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginLeft="0dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="14dp"
                     android:text="Описание"></TextView>
 
                 <RelativeLayout
@@ -400,7 +405,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="2dp"
                     android:layout_marginLeft="2dp"
-                    android:layout_marginTop="19dp"
+                    android:layout_marginTop="27dp"
                     android:text="@string/textcard"></TextView>
 
                 <RelativeLayout

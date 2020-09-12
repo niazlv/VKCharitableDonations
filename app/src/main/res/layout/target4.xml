@@ -124,18 +124,19 @@
                 android:layout_marginEnd="28dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
                 <TextView
                     android:layout_width="351dp"
                     android:layout_height="20dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="27dp"
                     android:text="Дата окончания"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
@@ -177,18 +178,20 @@
                 android:layout_marginEnd="26dp">
 
                 <!-- Show/Hide Title -->
+
+                <!-- Container -->
+
                 <TextView
                     android:layout_width="351dp"
                     android:layout_height="20dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="23dp"
                     android:text="Автор"></TextView>
 
-                <!-- Container -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
