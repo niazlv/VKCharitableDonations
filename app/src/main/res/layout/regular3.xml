@@ -204,6 +204,8 @@
                         android:layout_alignParentTop="true"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
                         android:layout_marginLeft="-1dp"
                         android:layout_marginTop="-1dp"
                         android:layout_marginRight="1dp"
@@ -257,6 +259,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginTop="0dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
                         android:layout_marginRight="0dp"
                         android:animateLayoutChanges="true"
                         android:background="@drawable/default_sta"
@@ -286,6 +290,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="0dp"
                     android:layout_marginLeft="0dp"
+
                     android:layout_marginTop="12dp"
                     android:text="Цель"></TextView>
 
@@ -308,6 +313,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginTop="0dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
                         android:layout_marginRight="0dp"
                         android:animateLayoutChanges="true"
                         android:background="@drawable/default_sta"
@@ -360,6 +367,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginTop="0dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
                         android:layout_marginRight="0dp"
                         android:animateLayoutChanges="true"
                         android:background="@drawable/default_sta"

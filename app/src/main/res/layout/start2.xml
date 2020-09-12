@@ -56,15 +56,19 @@
             android:id="@+id/type"
             android:layout_width="375dp"
             android:layout_height="148dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true">
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp">
             <!-- Banner / Set 5: No Left -->
             <RelativeLayout
                 android:id="@+id/banner_set_"
                 android:layout_width="375dp"
                 android:layout_height="74dp"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp">
                 <!-- x / Base / Banner Regular -->
                 <RelativeLayout
                     android:id="@+id/x_base_bann"
@@ -164,7 +168,7 @@
                             android:layout_alignParentTop="true"
                             android:layout_marginLeft="14dp"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/targ" >
+                            android:background="@drawable/targ">
 
                         </RelativeLayout>
                     </RelativeLayout>
@@ -195,8 +199,8 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"
                     android:background="@drawable/x_base_bann">
 
@@ -217,8 +221,8 @@
                         android:layout_alignParentTop="true">
                         <!-- Text & Buttons -->
                         <RelativeLayout
-                            android:layout_width="183dp"
-                            android:layout_height="38dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:layout_marginLeft="52dp"
@@ -243,7 +247,7 @@
                                 android:layout_marginTop="22dp"
                                 android:gravity="top"
                                 android:lineSpacingExtra="0sp"
-                                android:text="@string/show_hide_s"
+                                android:text="Если помощь нужна ежемесячно"
                                 android:textAppearance="@style/show_hide_s"
                                 android:translationY="-0.24sp" />
                         </RelativeLayout>
@@ -292,7 +296,7 @@
 
             </RelativeLayout>
 
-            </RelativeLayout>
+        </RelativeLayout>
 
 
     </RelativeLayout>

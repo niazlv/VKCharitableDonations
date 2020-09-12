@@ -157,6 +157,8 @@
                         android:background="@drawable/default_sta"
                         android:entries="@array/authors"
                         android:hint="Выберите дату"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="20dp"
                         android:inputType="date"
                         android:spinnerMode="dropdown" />
                 </RelativeLayout>
