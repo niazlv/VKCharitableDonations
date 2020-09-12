@@ -40,6 +40,9 @@
 <string name="load">
     Загрузить обложку
 </string>
+    <string-array name="authors">
+        <item>Нияз Леушкин</item>
+    </string-array>
 
 
 </resources>

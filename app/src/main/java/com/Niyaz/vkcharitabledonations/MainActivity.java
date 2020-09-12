@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.target3);
     }
     public void enter(View v){
-
+        setContentView(R.layout.target4);
     }
 
     public void backtostart(View v){
