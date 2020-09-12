@@ -120,7 +120,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentTop="true">
                         <!-- Text & Buttons -->
-                        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        <RelativeLayout
                             android:id="@+id/text_button"
                             android:layout_width="183dp"
                             android:layout_height="38dp"
@@ -153,6 +153,7 @@
                                 android:text="@string/show_hide_s"
                                 android:textAppearance="@style/show_hide_s"
                                 android:translationY="-0.24sp" />
+
                         </RelativeLayout>
 
                         <RelativeLayout
@@ -163,13 +164,135 @@
                             android:layout_alignParentTop="true"
                             android:layout_marginLeft="14dp"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/targ" />
+                            android:background="@drawable/targ" >
+
+                        </RelativeLayout>
                     </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/target2s"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="13dp"
+                        android:alpha="0"
+                        android:onClick="target2" />
+
                 </RelativeLayout>
             </RelativeLayout>
 
+            <!-- Banner / Set 5: No Left -->
+            <RelativeLayout
+                android:id="@+id/banner_ts"
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="74dp">
+                <!-- x / Base / Banner Regular -->
+                <RelativeLayout
+                    android:id="@+id/x_base_band"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/x_base_bann">
 
-        </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/regular2s"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="13dp"
+                        android:alpha="0"
+                        android:onClick="regular2" />
+
+                    <RelativeLayout
+                        android:layout_width="251dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true">
+                        <!-- Text & Buttons -->
+                        <RelativeLayout
+                            android:layout_width="183dp"
+                            android:layout_height="38dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="12dp">
+                            <!-- Show/Hide Title -->
+                            <TextView
+                                android:layout_width="154dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="top"
+                                android:lineSpacingExtra="1sp"
+                                android:text="@string/show_hide_r"
+                                android:textAppearance="@style/show_hide_t"
+                                android:translationY="-0.45sp" />
+
+                            <TextView
+                                android:layout_width="195dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="22dp"
+                                android:gravity="top"
+                                android:lineSpacingExtra="0sp"
+                                android:text="@string/show_hide_s"
+                                android:textAppearance="@style/show_hide_s"
+                                android:translationY="-0.24sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/calendar" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="48dp"
+                        android:layout_height="62dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="21dp">
+
+                        <RelativeLayout
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="15dp">
+                            <!-- ↳ Icon Color -->
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="11dp"
+                                android:layout_alignParentLeft="false"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="false"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="17dp"
+                                android:background="@drawable/arrow" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            </RelativeLayout>
 
 
     </RelativeLayout>

@@ -17,6 +17,9 @@
     <string name="show_hide_s">
     Когда есть определённая цель
     </string>
+<string name="show_hide_r">
+    Регульярный сбор
+</string>
 
 
 </resources>

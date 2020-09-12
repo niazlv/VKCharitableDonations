@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-public abstract class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
 
@@ -26,7 +26,7 @@ public abstract class MainActivity extends AppCompatActivity {
         }
     }
     public void start(View v){
-        setContentView(R.layout.starts);
+        setContentView(R.layout.start2);
     }
 
     public void back2(View v){
