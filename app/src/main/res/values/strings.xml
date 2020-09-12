@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VK Charitable Donations</string>
+    <!-- strings.xml -->
+    <string name="text">
+
+У вас пока нет сборов. \n Начните доброе дело.
+</string>
+    <string name="label">
+        Создать сбор
+    </string>
+    <string name="title">
+        Пожертвования
+    </string>
+    <string name="show_hide_t">
+        Целевой сбор
+    </string>
+    <string name="show_hide_s">
+    Когда есть определённая цель
+    </string>
+
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="409dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- ↳ Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="160dp"
+            android:layout_height="26dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="Тип сбора"
+            android:textAppearance="@style/title"
+            android:translationY="-0.7sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame"
+        app:layout_constraintVertical_bias="1.0">
+        <!-- Separator Top · 3x -->
+        <View
+            android:id="@+id/separator_t"
+            android:layout_width="0dp"
+            android:layout_height="0.33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/separator_t"
+            tools:ignore="MissingConstraints" />
+        <!-- Type -->
+        <RelativeLayout
+            android:id="@+id/type"
+            android:layout_width="375dp"
+            android:layout_height="148dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+            <!-- Banner / Set 5: No Left -->
+            <RelativeLayout
+                android:id="@+id/banner_set_"
+                android:layout_width="375dp"
+                android:layout_height="74dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+                <!-- x / Base / Banner Regular -->
+                <RelativeLayout
+                    android:id="@+id/x_base_bann"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/x_base_bann">
+                    <!-- Right -->
+                    <RelativeLayout
+                        android:id="@+id/right"
+                        android:layout_width="48dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="21dp">
+
+                        <RelativeLayout
+                            android:id="@+id/chevron_rig"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="15dp">
+                            <!-- ↳ Icon Color -->
+                            <View
+                                android:id="@+id/icon_color"
+                                android:layout_width="10dp"
+                                android:layout_height="11dp"
+                                android:layout_alignParentLeft="false"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="false"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="17dp"
+                                android:background="@drawable/arrow" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                    <!-- Left -->
+                    <!-- Layout -->
+                    <RelativeLayout
+                        android:id="@+id/layout"
+                        android:layout_width="251dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true">
+                        <!-- Text & Buttons -->
+                        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/text_button"
+                            android:layout_width="183dp"
+                            android:layout_height="38dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="52dp"
+                            android:layout_marginTop="12dp">
+                            <!-- Show/Hide Title -->
+                            <TextView
+                                android:id="@+id/show_hide_t"
+                                android:layout_width="112dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:gravity="top"
+                                android:lineSpacingExtra="1sp"
+                                android:text="@string/show_hide_t"
+                                android:textAppearance="@style/show_hide_t"
+                                android:translationY="-0.45sp" />
+
+                            <TextView
+                                android:id="@+id/show_hide_s"
+                                android:layout_width="195dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="22dp"
+                                android:gravity="top"
+                                android:lineSpacingExtra="0sp"
+                                android:text="@string/show_hide_s"
+                                android:textAppearance="@style/show_hide_s"
+                                android:translationY="-0.24sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/target_outl"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/targ" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

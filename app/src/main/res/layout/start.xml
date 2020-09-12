@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="409dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- ↳ Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="160dp"
+            android:layout_height="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/title"
+            android:textAppearance="@style/title"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.7sp"
+            android:gravity="center_horizontal|top"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame"
+        android:layout_height="0dp">
+        <!-- Separator Top · 3x -->
+        <View
+            android:id="@+id/separator_t"
+            android:layout_width="0dp"
+            android:layout_height="0.33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/separator_t"
+            tools:ignore="MissingConstraints" />
+        <!-- Placeholder / Set 2: Text with Button -->
+        <RelativeLayout
+            android:id="@+id/placeholder"
+            android:layout_width="375dp"
+            android:layout_height="196dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp" >
+            <!-- ↳ Text -->
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/text"
+                android:textAppearance="@style/text"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <!-- Button / Size 2: Medium / Size Y: Regular / Style 1: Primary -->
+            <RelativeLayout
+                android:id="@+id/button_size"
+                android:layout_width="133dp"
+                android:layout_height="36dp"
+                android:layout_alignStart="@+id/text"
+                android:layout_alignEnd="@+id/text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="131dp"
+                android:layout_marginEnd="107dp"
+                android:layout_marginBottom="29dp" >
+                <!-- x / Base / Button / Medium / Size Y: Regular -->
+                <Button
+                    android:id="@+id/x_base_butt"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/x_base_butt"
+                    android:onClick="start"
+                    android:text="@string/label"
+                    android:textAppearance="@style/label" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
