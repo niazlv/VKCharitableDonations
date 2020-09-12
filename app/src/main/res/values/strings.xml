@@ -20,6 +20,26 @@
 <string name="show_hide_r">
     Регульярный сбор
 </string>
+    <string name="title3">
+        Целевой сбор
+    </string>
+    <string name="enter">
+        Далее
+    </string>
+
+    <string name="textcard">
+        Куда получать деньги
+    </string>
+
+    <string-array name="cards">
+        <item>VK Pay 7513</item>
+        <item>Mastercard 9974</item>
+        <item>Visa 2453</item>
+        <item>Qiwi 9060</item>
+    </string-array>
+<string name="load">
+    Загрузить обложку
+</string>
 
 
 </resources>
